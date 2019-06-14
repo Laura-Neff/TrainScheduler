@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Train Scheduler</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+        <div class="container-fluid">
+                <div class="jumbotron jumbotron-fluid text-center">
+                    <h1 class="display-4">Choo Choo, Buckaroos</h1>
+                </div>
+
+                <!-- Current Train Schedule -->
+
+                <div class="container-fluid">
+                        <div class="row border">
+                            <div class="col">
+                                <h5 class="text-justify">Current Train Schedule</h5>
+                            </div>
+            
+                        </div>
+
+
+                <div class="row">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Train Name</th>
+                                    <th scope="col">Destination</th>
+                                    <th scope="col">Frequency (min)</th>
+                                    <th scope="col">Next Arrival</th>
+                                    <th scope="col">Minutes Away</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Train of Thought</th>
+                                    <td>Lost</td>
+                                    <td>2</td>
+                                    <td>N/A</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Placeholder</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+<!-- Add Train -->
+                    <div class="container-fluid">
+                            <div class="row border">
+                                <div class="col-sm">
+                                    <h5 class="text-justify">Add Train</h5>
+                                    <hr class="my-4">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="train-name">Train Name</label>
+                                            <input type="text" class="form-control" id="trainName" placeholder="Midnight Marta">
+                
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="employee-role">Destination</label>
+                                            <input type="text" class="form-control" id="destination" placeholder="Georgia">
+                
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="employee-start">First Train Time (HH:mm - military time)</label>
+                                            <input type="text" class="form-control" id="firstTime" placeholder="12:00 A.M.">
+                
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="monthly-rate">Frequency (min)</label>
+                                            <input type="text" class="form-control" id="frequency" placeholder="2">
+                                        </div>
+                
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </form>
+                
+                                </div>
+                
+                            </div>
+                
+                        </div>
+                
+                    </div>
+
+
+
+
+
+    
+</body>
+</html>
