@@ -1,0 +1,45 @@
+.jumbotron {
+    background-image: url("train.jpg");
+    background-size:100% 100%;
+    color:whitesmoke;
+    margin:10px 0px
+}
+
+h1{
+    padding-top:10vh;
+    position:relative;
+    bottom:20px;
+
+}
+
+body {
+    background-image: url("background.png");
+    color:white;
+
+}
+
+/*
+th {
+    color:white;
+}
+td {
+    color:white;
+}
+
+*/
+
+
+button {
+    border-radius:20px;
+}
+
+#train-table{
+    color:white;
+
+}
+
+table {
+    margin:8px;
+    width:50%;
+}
+
